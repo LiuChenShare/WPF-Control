@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chy.Utility.Tool.Controls", "Chy.Utility.Tool.Controls\Chy.Utility.Tool.Controls.csproj", "{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38F07BF-4E9E-4A8A-A9E6-25166493E393}
+	EndGlobalSection
+EndGlobal
