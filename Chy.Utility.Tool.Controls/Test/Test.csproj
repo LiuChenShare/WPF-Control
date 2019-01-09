@@ -4,17 +4,18 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}</ProjectGuid>
-    <OutputType>library</OutputType>
-    <RootNamespace>Chy.Utility.Tool.Controls</RootNamespace>
-    <AssemblyName>Chy.Utility.Tool.Controls</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectGuid>{F332A7C2-CF45-4B24-B0E7-4530C3EFD424}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <Deterministic>true</Deterministic>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,6 +25,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -34,12 +36,12 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
@@ -48,55 +50,22 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="View\DateTimePicker\DatePicker.xaml.cs">
-      <DependentUpon>DatePicker.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DateTimePicker\DateTimePicker.xaml.cs">
-      <DependentUpon>DateTimePicker.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DateTimePicker\IconButton.xaml.cs">
-      <DependentUpon>IconButton.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DateTimePicker\TDateTimeView.xaml.cs">
-      <DependentUpon>TDateTimeView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DateTimePicker\TDateView.xaml.cs">
-      <DependentUpon>TDateView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DateTimePicker\THourView.xaml.cs">
-      <DependentUpon>THourView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DateTimePicker\TMinSexView.xaml.cs">
-      <DependentUpon>TMinSexView.xaml</DependentUpon>
-    </Compile>
-    <Page Include="View\DateTimePicker\DatePicker.xaml">
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\DateTimePicker\DateTimePicker.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\DateTimePicker\IconButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\DateTimePicker\TDateTimeView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\DateTimePicker\TDateView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\DateTimePicker\THourView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\DateTimePicker\TMinSexView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -122,18 +91,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\close.png" />
-    <Resource Include="Image\Date.bmp" />
-    <Resource Include="Image\date.png" />
-    <Resource Include="Image\date1.bmp" />
-    <Resource Include="Image\date2.ico" />
-    <Resource Include="Image\DateTimePicker.bmp" />
-    <Resource Include="Image\DateTimePicker1.bmp" />
-    <Resource Include="Image\ooopic_1501745970.ico" />
-    <Resource Include="Image\timer.bmp" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\DateTimePicker\DateTimePicker.bmp" />
+    <ProjectReference Include="..\Chy.Utility.Tool.Controls\Chy.Utility.Tool.Controls.csproj">
+      <Project>{89a4134f-c123-4fca-b6ca-f4d22182deb0}</Project>
+      <Name>Chy.Utility.Tool.Controls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

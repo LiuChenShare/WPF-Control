@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chy.Utility.Tool.Controls", "Chy.Utility.Tool.Controls\Chy.Utility.Tool.Controls.csproj", "{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F332A7C2-CF45-4B24-B0E7-4530C3EFD424}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A4134F-C123-4FCA-B6CA-F4D22182DEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F332A7C2-CF45-4B24-B0E7-4530C3EFD424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F332A7C2-CF45-4B24-B0E7-4530C3EFD424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F332A7C2-CF45-4B24-B0E7-4530C3EFD424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F332A7C2-CF45-4B24-B0E7-4530C3EFD424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
