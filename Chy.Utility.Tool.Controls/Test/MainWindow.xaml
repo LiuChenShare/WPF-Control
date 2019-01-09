@@ -10,8 +10,8 @@
     <Grid>
         <DatePicker HorizontalAlignment="Left" Margin="131,89,0,0" VerticalAlignment="Top"/>
 
-        <DateTimePicker:DatePicker HorizontalAlignment="Left" Height="100" Margin="113,161,0,0" VerticalAlignment="Top" Width="153"/>
-        <DateTimePicker:DateTimePicker HorizontalAlignment="Left" Height="100" Margin="295,161,0,0" VerticalAlignment="Top" Width="162"/>
+        <DateTimePicker:DatePicker HorizontalAlignment="Left" Height="100" Margin="113,161,0,0" VerticalAlignment="Top" Width="150"/>
+        <DateTimePicker:DateTimePicker HorizontalAlignment="Left" Height="100" Margin="295,161,0,0" VerticalAlignment="Top" Width="150"/>
 
     </Grid>
 </Window>
