@@ -127,7 +127,7 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
         /// <param name="e"></param>
         private void calDate_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
         {
-            DateTime dt = (DateTime)sender;
+            DateTime dt = Convert.ToDateTime(sender.ToString());
             textDate.Text = dt.ToString("yyyy/MM/dd");
         }
         #endregion

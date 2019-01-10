@@ -51,5 +51,11 @@ using System.Windows;
 // 可以指定所有值，也可以使用以下所示的 "*" 预置版本号和修订号
 // 方法是按如下所示使用“*”: :
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.1.0")]
-[assembly: AssemblyFileVersion("1.1.1.0")]
+[assembly: AssemblyVersion("1.1.2.1001")]
+[assembly: AssemblyFileVersion("1.1.2.1001")]
+//版本规则
+//A.B.C.D
+//A:重大更新
+//B:添加新的工具类型
+//C:添加新的工具
+//D:日常迭代

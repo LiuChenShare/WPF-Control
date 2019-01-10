@@ -44,9 +44,8 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
             TDateView dtView = new TDateView(textBlock1.Text);// TDateTimeView  构造函数传入日期时间
             dtView.DateTimeOK += (dateTimeStr) => //TDateTimeView 日期时间确定事件
             {
-
-                textBlock1.Text = dateTimeStr;
                 DateTime = Convert.ToDateTime(dateTimeStr);
+                textBlock1.Text = DateTime.ToString("yyyy/MM/dd");
                 popChioce.IsOpen = false;//TDateTimeView 所在pop  关闭
 
             };
@@ -63,7 +62,7 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             DateTime dt = DateTime.Now;
-            textBlock1.Text = dt.ToString("yyyy/MM/dd HH:mm:ss");//"yyyyMMddHHmmss"
+            textBlock1.Text = dt.ToString("yyyy/MM/dd");//"yyyyMMddHHmmss"
             DateTime = dt;
             //  DateTime = Convert.ToDateTime(textBlock1.Text);
         }
