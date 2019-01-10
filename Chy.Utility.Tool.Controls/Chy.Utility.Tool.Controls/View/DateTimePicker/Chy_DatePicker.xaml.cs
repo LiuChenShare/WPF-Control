@@ -8,10 +8,13 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
     /// <summary>
     /// DateTimePicker.xaml 的交互逻辑
     /// </summary>
-    [ToolboxBitmap(typeof(DatePicker), "DateTimePicker.bmp")]
-    public partial class DatePicker : UserControl
+    [ToolboxBitmap(typeof(Chy_DatePicker), "DateTimePicker.bmp")]
+    public partial class Chy_DatePicker : UserControl
     {
-        public DatePicker()
+        /// <summary>
+        /// 
+        /// </summary>
+        public Chy_DatePicker()
         {
             InitializeComponent();
         }
@@ -20,7 +23,7 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
         /// 构造函数
         /// </summary>
         /// <param name="txt"></param>
-        public DatePicker(string txt)
+        public Chy_DatePicker(string txt)
             : this()
         {
             // this.textBox1.Text = txt;

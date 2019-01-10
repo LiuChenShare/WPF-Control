@@ -50,11 +50,11 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="View\DateTimePicker\DatePicker.xaml.cs">
-      <DependentUpon>DatePicker.xaml</DependentUpon>
+    <Compile Include="View\DateTimePicker\Chy_DatePicker.xaml.cs">
+      <DependentUpon>Chy_DatePicker.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\DateTimePicker\DateTimePicker.xaml.cs">
-      <DependentUpon>DateTimePicker.xaml</DependentUpon>
+    <Compile Include="View\DateTimePicker\Chy_DateTimePicker.xaml.cs">
+      <DependentUpon>Chy_DateTimePicker.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\DateTimePicker\IconButton.xaml.cs">
       <DependentUpon>IconButton.xaml</DependentUpon>
@@ -71,11 +71,11 @@
     <Compile Include="View\DateTimePicker\TMinSexView.xaml.cs">
       <DependentUpon>TMinSexView.xaml</DependentUpon>
     </Compile>
-    <Page Include="View\DateTimePicker\DatePicker.xaml">
+    <Page Include="View\DateTimePicker\Chy_DatePicker.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\DateTimePicker\DateTimePicker.xaml">
+    <Page Include="View\DateTimePicker\Chy_DateTimePicker.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
