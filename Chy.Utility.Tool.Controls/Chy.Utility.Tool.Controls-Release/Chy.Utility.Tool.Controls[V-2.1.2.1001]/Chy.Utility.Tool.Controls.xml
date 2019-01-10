@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chy.Utility.Tool.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker">
+            <summary>
+            DateTimePicker.xaml 的交互逻辑
+            </summary>
+            <summary>
+            Chy_DatePicker
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="txt"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker.iconButton1_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            日历图标点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker.UserControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            DateTimePicker 窗体登录事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker.DateTime">
+            <summary>
+            日期时间
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DatePicker.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker">
+            <summary>
+            DateTimePicker.xaml 的交互逻辑
+            </summary>
+            <summary>
+            Chy_DateTimePicker
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="txt"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker.iconButton1_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            日历图标点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker.UserControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            DateTimePicker 窗体登录事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker.DateTime">
+            <summary>
+            日期时间
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.Chy_DateTimePicker.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.IconButton">
+            <summary>
+            IconButton.xaml 的交互逻辑
+            </summary>
+            <summary>
+            IconButton
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.IconButton.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView">
+            <summary>
+            TDateTimeView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            TDateTimeView
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="txt"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.formerDateTimeStr">
+            <summary>
+            从 DateTimePicker 传入的日期时间字符串
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.UserControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            TDateTimeView 窗体登录事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.iBtnCloseView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            关闭按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.btnOK_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            确定按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.btnNow_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            当前按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.btnhh_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            小时点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.btnmm_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            分钟点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.calDate_PreviewMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            解除calendar点击后 影响其他按钮首次点击无效的问题
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.DateTimeOK">
+            <summary>
+            时间确定后的传递事件
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.OnDateTimeContent(System.String)">
+            <summary>
+            时间确定后传递的时间内容
+            </summary>
+            <param name="dateTimeStr"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.btnss_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            秒钟点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateTimeView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView">
+            <summary>
+            TDateTimeView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            TDateView
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="txt"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.formerDateStr">
+            <summary>
+            从 DatePicker 传入的日期时间字符串
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.UserControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            TDateView 窗体登录事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.iBtnCloseView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            关闭按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.btnOK_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            确定按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.btnNow_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            当前按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.calDate_PreviewMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            解除calendar点击后 影响其他按钮首次点击无效的问题
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.calDate_SelectedDatesChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            时间选择控件数据变化事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.DateTimeOK">
+            <summary>
+            时间确定后的传递事件
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.OnDateTimeContent(System.String)">
+            <summary>
+            时间确定后传递的时间内容
+            </summary>
+            <param name="dateTimeStr"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TDateView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView">
+            <summary>
+            THourView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            THourView
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="txt"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.formerHourStr">
+            <summary>
+            从 TDateTimeView 传入的 小时数据 字符串
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.Hour">
+            <summary>
+            类：小时数据
+            </summary>
+        </member>
+        <member name="P:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.Hour.Hour1">
+            <summary>
+            第1列 小时数据
+            </summary>
+        </member>
+        <member name="P:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.Hour.Hour6">
+            <summary>
+            第6列 小时数据
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.Hour.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="hour1"></param>
+            <param name="hour2"></param>
+            <param name="hour3"></param>
+            <param name="hour4"></param>
+            <param name="hour5"></param>
+            <param name="hour6"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.LoadHour">
+            <summary>
+            dgHour控件 绑定类Hour 加载初始化数据
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.UserControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            THourView 窗体登录事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.dgHour_SelectedCellsChanged(System.Object,System.Windows.Controls.SelectedCellsChangedEventArgs)">
+            <summary>
+            dgHour控件 单元格点击（选择）事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.iBtnCloseView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            关闭按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.HourClick">
+            <summary>
+            小时数据点击（确定）后 的传递事件
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.OnHourClickContentEdit(System.String)">
+            <summary>
+            小时数据点击（确定）后 传递的时间内容
+            </summary>
+            <param name="hourstr"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.THourView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView">
+            <summary>
+            TMinSexView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            TMinSexView
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="txt"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.formerMinStr">
+            <summary>
+            从 TDateTimeView 传入的 分钟数据 字符串
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.Min">
+            <summary>
+            类：分钟数据
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.LoadMin">
+            <summary>
+            dgMinSex控件 绑定类Min 加载初始化数据 
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.UserControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            TMinSexView 窗体登录事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.dgMinSex_SelectedCellsChanged(System.Object,System.Windows.Controls.SelectedCellsChangedEventArgs)">
+            <summary>
+            dgMinSex控件 单元格点击（选择）事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.iBtnCloseView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            窗体关闭事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.MinClick">
+            <summary>
+            分钟数据点击（确定）后 的传递事件
+            </summary>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.OnMinClickContent(System.String)">
+            <summary>
+            分钟数据点击（确定）后 传递的时间内容
+            </summary>
+            <param name="minStr"></param>
+        </member>
+        <member name="M:Chy.Utility.Tool.Controls.View.DateTimePicker.TMinSexView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Chy.Utility.Tool.Controls.Properties.Resources">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:Chy.Utility.Tool.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Chy.Utility.Tool.Controls.Properties.Resources.Culture">
+            <summary>
+              覆盖当前线程的 CurrentUICulture 属性
+              使用此强类型的资源类的资源查找。
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
