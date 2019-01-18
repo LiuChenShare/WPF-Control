@@ -23,6 +23,11 @@ namespace Test
         public MainWindow()
         {
             InitializeComponent();
+            DateP.SetDateTime(DateTime.Now.AddDays(-30));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

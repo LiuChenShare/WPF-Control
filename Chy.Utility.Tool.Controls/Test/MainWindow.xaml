@@ -10,8 +10,9 @@
     <Grid>
         <DatePicker HorizontalAlignment="Left" Margin="131,89,0,0" VerticalAlignment="Top"/>
 
-        <DateTimePicker:Chy_DatePicker HorizontalAlignment="Left" Height="100" Margin="113,161,0,0" VerticalAlignment="Top" Width="150"/>
+        <DateTimePicker:Chy_DatePicker Name="DateP" HorizontalAlignment="Left" Height="100" Margin="113,161,0,0" VerticalAlignment="Top" Width="150"/>
         <DateTimePicker:Chy_DateTimePicker HorizontalAlignment="Left" Height="100" Margin="295,161,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="213,345,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>

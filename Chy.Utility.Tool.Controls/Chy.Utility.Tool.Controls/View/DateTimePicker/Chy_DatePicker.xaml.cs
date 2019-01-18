@@ -64,6 +64,7 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
         /// <param name="e"></param>
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
+            if (DateTime != new DateTime()) { return; }
             DateTime dt = DateTime.Now;
             textBlock1.Text = dt.ToString("yyyy/MM/dd");//"yyyyMMddHHmmss"
             DateTime = dt;
@@ -82,6 +83,10 @@ namespace Chy.Utility.Tool.Controls.View.DateTimePicker
         #endregion
 
         #region 对外暴露方法
+        /// <summary>
+        /// 设置控件的时间
+        /// </summary>
+        /// <param name="dateTime"></param>
         public void SetDateTime(DateTime dateTime)
         {
             textBlock1.Text = dateTime.ToString("yyyy/MM/dd");//"yyyyMMddHHmmss"
